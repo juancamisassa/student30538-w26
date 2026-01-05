@@ -649,7 +649,7 @@ Analogy: in the standard workflow, steps 2 and 3 happen automatically after you 
 <!-- 
 ## worked example (4 of 4)
 
-```frbprx
+```jcmfuw
 % echo "This text will be added to the end." >> foo.txt
 % git status
 On branch master
@@ -662,7 +662,15 @@ no changes added to commit (use "git add" and/or "git commit -a")
 % git add foo.txt
 ``` -->
 </section>
-<section id="do-pair-share" class="slide level2">
+<section id="do-pair-share" class="slide level2" data-background-color="aliceblue">
+<h2>Do-pair-share</h2>
+<ul>
+<li><em>Do</em> – do exercise on your own</li>
+<li><em>Pair</em> – compare your results with person next to you</li>
+<li><em>Share</em> – discuss results as a class</li>
+</ul>
+</section>
+<section id="do-pair-share-1" class="slide level2" data-background-color="aliceblue">
 <h2>Do-Pair-Share</h2>
 <p>Before starting, run <code>% git --version</code> to verify that git is installed. (Installation <a href="https://github.com/git-guides/install-git">guide</a>)</p>
 <p>Go back through the slides in the worked example and run each of these steps at your command line.</p>
@@ -686,8 +694,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
           display:block!important;
       }</style></aside>
 </section>
-<section id="do-pair-share-commands-collected-together" class="slide level2">
-<h2>Do-Pair-Share Commands Collected Together</h2>
+<section id="do-pair-share-commands-collected-togethe" class="slide level2" data-background-color="aliceblue">
+<h2>Do-Pair-Share Commands Collected Togethe</h2>
 <div class="sourceCode" id="cb9"><pre class="sourceCode numberSource {bash} number-lines code-with-copy"><code class="sourceCode"><span id="cb9-1"><a href=""></a>% git init test</span>
 <span id="cb9-2"><a href=""></a>% cd test</span>
 <span id="cb9-3"><a href=""></a>% echo "hello world" &gt; foo.txt</span>
@@ -770,7 +778,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 <li>Use <code>.gitignore</code> to ignore irrelevant files</li>
 </ul>
 </section>
-<section id="do-pair-share-gitignore-do-in-lab" class="slide level2" style="font-size: 0.7em">
+<section id="do-pair-share-gitignore-do-in-lab" class="slide level2" style="font-size: 0.7em" data-background-color="aliceblue">
 <h2>Do-Pair-Share gitignore (do in lab)</h2>
 <ol type="1">
 <li>In Terminal (Mac)/PowerShell (PC), create a repo named <code>test</code></li>
@@ -1066,7 +1074,7 @@ Merge made by the 'ort' strategy.</code></pre>
 <section id="three-way-merge-with-a-conflict-ii" class="slide level2">
 <h2>Three way merge with a conflict II</h2>
 <p><strong>Original Code</strong></p>
-<div id="84610dad" class="cell" data-execution_count="1">
+<div id="ae0ae9a2" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href=""></a><span class="co">'''</span></span>
 <span id="cb16-2"><a href=""></a><span class="co">A function that adds x to 3</span></span>
 <span id="cb16-3"><a href=""></a><span class="co">'''</span></span>
@@ -1076,7 +1084,7 @@ Merge made by the 'ort' strategy.</code></pre>
 <p><strong>Alternate Versions</strong></p>
 <div class="columns">
 <div class="column" style="width:30%;">
-<div id="4d35e1ad" class="cell" data-execution_count="2">
+<div id="797c8247" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href=""></a><span class="co">'''</span></span>
 <span id="cb17-2"><a href=""></a><span class="co">A function that adds x to 4</span></span>
 <span id="cb17-3"><a href=""></a><span class="co">'''</span></span>
@@ -1085,7 +1093,7 @@ Merge made by the 'ort' strategy.</code></pre>
 </div>
 <pre><code>% git switch main</code></pre>
 </div><div class="column" style="width:30%;">
-<div id="3e0a0f67" class="cell" data-execution_count="3">
+<div id="2193759d" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href=""></a><span class="co">'''</span></span>
 <span id="cb19-2"><a href=""></a><span class="co">A function that adds a list of numbers together</span></span>
 <span id="cb19-3"><a href=""></a><span class="co">'''</span></span>
@@ -1094,7 +1102,7 @@ Merge made by the 'ort' strategy.</code></pre>
 </div>
 <pre><code>% git switch iss53</code></pre>
 </div><div class="column" style="width:30%;">
-<div id="0c9ed70c" class="cell" data-execution_count="4">
+<div id="6a6c3b30" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href=""></a><span class="co">'''</span></span>
 <span id="cb21-2"><a href=""></a><span class="co">A function that adds x to y</span></span>
 <span id="cb21-3"><a href=""></a><span class="co">'''</span></span>
@@ -1240,7 +1248,7 @@ Automatic merge failed; fix conflicts and then commit the result.</code></pre>
 <li>In this case, we’ll keep what’s in <code>hotfix</code></li>
 <li>How <code>add.py</code> looks after we’ve clicked “Accept incoming change”: exactly like version in <code>hotfix</code></li>
 </ul>
-<div id="17957fbb" class="cell" data-execution_count="5">
+<div id="26cb96a2" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href=""></a><span class="co">'''</span></span>
 <span id="cb25-2"><a href=""></a><span class="co">A function that adds x to y</span></span>
 <span id="cb25-3"><a href=""></a><span class="co">'''</span></span>
@@ -1283,7 +1291,7 @@ preserved in case we want to revive it
 | C5   | `main` | Merge `iss53` into `main` | C2 and C4 | yes!      |
 -->
 </section>
-<section id="do-pair-share-merge-conflicts" class="slide level2" style="font-size: 0.6em">
+<section id="do-pair-share-merge-conflicts" class="slide level2" style="font-size: 0.6em" data-background-color="aliceblue">
 <h2>do-pair-share: merge conflicts</h2>
 <div class="{.}columns">
 <div class="column" style="width:45%;">
